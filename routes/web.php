@@ -14,5 +14,5 @@ use Illuminate\Support\Facades\Route;
 */
 
 
-Route::resource('/', 'App\Http\Controllers\mahasiswaController');
-Route::resource('mahasiswa', 'app\Http\Controllers\mahasiswaController');
+Route::resource('/', 'App\Http\Controllers\siswaController');
+Route::resource('siswa', 'app\Http\Controllers\siswaController');
